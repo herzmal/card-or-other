@@ -1,0 +1,25 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== 本地运行时数据（含账号库 / 会话 token，切勿提交） =====
+backend/users.db
+backend/sessions.json
+*.sqlite3
+
+# ===== 测试 / 本地临时文件 =====
+*.log
+
+# ===== GitHub token（本地敏感文件） =====
+.github_token.txt
+**/.github_token.txt
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

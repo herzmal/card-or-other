@@ -1,0 +1,2057 @@
+[
+  {
+    "name": "坚盾",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "提升自身3点防御值，持续一回合",
+    "effect": null
+  },
+  {
+    "name": "绝地反击",
+    "cost": 0,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "立即减少自身12点生命以换取2点能量",
+    "effect": null
+  },
+  {
+    "name": "攻势一",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "对目标造成4点攻击",
+    "effect": {
+      "attack": 4
+    }
+  },
+  {
+    "name": "掩体",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "获得掩体效果 持续一回合",
+    "effect": {
+      "gain_mask": 1
+    }
+  },
+  {
+    "name": "治疗",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "恢复4点生命",
+    "effect": {
+      "heal": 4
+    }
+  },
+  {
+    "name": "背刺",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "立即对目标造成5点真实攻击",
+    "effect": null
+  },
+  {
+    "name": "血怒",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "提升自身4点攻击力一回合 损失自身8点生命和生命上限 同时获得1回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "攻势二",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "对目标造成4点攻击若上一张卡是攻势一，则此卡再次造成2点攻击",
+    "effect": null
+  },
+  {
+    "name": "盾",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "获得4点格挡",
+    "effect": {
+      "gain_block": 4
+    }
+  },
+  {
+    "name": "回收利用",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "获得一张已打出的卡",
+    "effect": null
+  },
+  {
+    "name": "雪",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "对目标施加4层寒冷，同时施加一层雪",
+    "effect": {
+      "chill": 4
+    }
+  },
+  {
+    "name": "血脉",
+    "cost": 0,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "消耗自身6点生命，以换取4点生命上限提升",
+    "effect": null
+  },
+  {
+    "name": "毒药🤢",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "对目标施加5层毒",
+    "effect": {
+      "poison": 5
+    }
+  },
+  {
+    "name": "攻势3",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "基本卡",
+    "type": "normal",
+    "desc": "对目标造成8点攻击 若前两张卡分别是攻势一和攻势二，则攻击值+4，且给予目标5层流血 可打断蓄力",
+    "effect": null
+  },
+  {
+    "name": "斩杀",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成12点攻击，若造成攻击前目标血量低于24则直接将其斩杀（除锁血，死舞状态，直接击杀）",
+    "effect": null
+  },
+  {
+    "name": "穷追猛打",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成7点攻击，并使目标获得低迷（获得格挡和恢复生命值效果减半）效果两回合 可打断蓄力",
+    "effect": null
+  },
+  {
+    "name": "沉痛打击",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成（6点+状态/效果总数 *5）的攻击",
+    "effect": null
+  },
+  {
+    "name": "x光刃",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成12点攻击，若攻击前目标身上存在任意格挡，则还将造成一次18点攻击",
+    "effect": null
+  },
+  {
+    "name": "三连击",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "造成三段伤害，第一段6点，第二第三段均为2点",
+    "effect": null
+  },
+  {
+    "name": "恶魔爪击👿",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对所有敌人造成6点攻击 并减少他们4点生命上限。敌人生命上限若低于初始上限，则每低于4点，将使此卡攻击值+2 可打断蓄力",
+    "effect": null
+  },
+  {
+    "name": "破碎重击",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "破除目标12点格挡和一层吸收效果",
+    "effect": {
+      "break_block": 12
+    }
+  },
+  {
+    "name": "蝠咬😈",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成3点生命吸取，并使目标受到蝠咬（受到的每次攻击来源+4）效果，持续一回合",
+    "effect": null
+  },
+  {
+    "name": "背水一战",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成目标现有能量*3的攻击，但自身下回合获得能量-2",
+    "effect": null
+  },
+  {
+    "name": "血响之刃 😈",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对至多3个目标使用，造成14点生命吸取 并附有斩杀效果 并能触发7层流血",
+    "effect": null
+  },
+  {
+    "name": "攻坚榴弹",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成2点攻击 随后破除目标24点格挡，若目标格挡被全部破除，则再次使其防御力-6（一回合）",
+    "effect": null
+  },
+  {
+    "name": "RMA长钉",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "立即无视目标防御造成6点攻击，若未造成伤害，则立即获得该卡",
+    "effect": null
+  },
+  {
+    "name": "锐爪",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成8点攻击，若成功造成了伤害，则再次造成12点攻击",
+    "effect": null
+  },
+  {
+    "name": "攻守兼备",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成8点攻击 并同时获得8点格挡",
+    "effect": {
+      "attack": 8,
+      "gain_block": 8
+    }
+  },
+  {
+    "name": "重斩",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "破除目标12点格挡，并同时造成4点攻击，若使用前目标无格挡，则此卡攻击+6",
+    "effect": null
+  },
+  {
+    "name": "破伤箭",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "无视防御力和格挡对目标造成6点真实攻击并对目标施加14层流血",
+    "effect": {
+      "true_attack": 6,
+      "bleed": 14
+    }
+  },
+  {
+    "name": "毒藤🤢",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成6点攻击，并同时施加9层毒",
+    "effect": {
+      "attack": 6,
+      "poison": 9
+    }
+  },
+  {
+    "name": "降维打击",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对至多2个目标造成6点攻击，并使他们获得弱化两回合",
+    "effect": null
+  },
+  {
+    "name": "碎冰击🧊",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成6点攻击 并造成一次冰爆卡效果（对目标造成寒冷层数-4的攻击，并同时消除目标身上的寒冷层数",
+    "effect": {
+      "attack": 6
+    }
+  },
+  {
+    "name": "幻影链😈",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4点生命吸取 若目标处于蝠咬状态 则还将再次造成4点生命吸取 并同时给予目标1回合弱化",
+    "effect": null
+  },
+  {
+    "name": "坠冰🧊",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成6点攻击 并同时施加9层寒冷",
+    "effect": {
+      "attack": 6,
+      "chill": 9
+    }
+  },
+  {
+    "name": "处决",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成22点真实攻击 无视防御力",
+    "effect": {
+      "true_attack": 22
+    }
+  },
+  {
+    "name": "岩崩锤",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成自身防御力*3的攻击 随后防御力-1\n若减少防御力后防御力＞2，获得此卡",
+    "effect": null
+  },
+  {
+    "name": "回旋",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4点攻击 并使目标获得低迷效果 1回合 下回合将对同一目标再造成10点攻击，若此攻击成功造成伤害，则再次造成14点攻击",
+    "effect": null
+  },
+  {
+    "name": "箭雨",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4段攻击每段攻击为2点",
+    "effect": null
+  },
+  {
+    "name": "噩梦撕咬😈",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成2点生命吸取 并对目标施加6层流血和一回合蝠咬效果",
+    "effect": null
+  },
+  {
+    "name": "肉斩骨断😈",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "立即进入死舞（无论如何生命值不会低于1）状态持续一回合 状态结束后获得3回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "祭祀😈",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4点生命吸取 减少自身4点生命上限 自身生命上限每减少4点，此卡攻击+1",
+    "effect": null
+  },
+  {
+    "name": "双面刃",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成两段攻击 第一段为8点普通攻击，第二段为6点真实攻击",
+    "effect": null
+  },
+  {
+    "name": "莫诺的制裁",
+    "cost": 12,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成52点攻击",
+    "effect": {
+      "attack": 52
+    }
+  },
+  {
+    "name": "弱点重击",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成2点攻击 若目标处于虚弱/低迷 则再次造成10点攻击",
+    "effect": null
+  },
+  {
+    "name": "追加打击",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成2点攻击 若目标本回合受到过伤害 则再次造成10点攻击",
+    "effect": null
+  },
+  {
+    "name": "冰锥🧊",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成2点攻击 若目标处于寒冷 则还将施加6层寒冷",
+    "effect": null
+  },
+  {
+    "name": "趁人之危",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "吸取目标一格能量 若目标处于虚弱状态 则将造成10点攻击",
+    "effect": null
+  },
+  {
+    "name": "强袭",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对至多2名目标造成11点真实攻击并使其获得2点易伤1回合",
+    "effect": null
+  },
+  {
+    "name": "骨钉",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "使目标进入低迷状态1回合 并给予目标8层流血",
+    "effect": null
+  },
+  {
+    "name": "冰连刺🧊",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成两段攻击 每段攻击为6点 若目标处于寒冷 则每段攻击+4",
+    "effect": null
+  },
+  {
+    "name": "正义审判",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成自身生命上限减去初始生命上限的攻击",
+    "effect": null
+  },
+  {
+    "name": "星辰穿刺",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "破除目标一件装备和一种有益效果 并造成8点真实攻击",
+    "effect": {
+      "true_attack": 8
+    }
+  },
+  {
+    "name": "连锁闪电⚡️",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成7点攻击 若成功造成伤害则可链接至多2个目标造成同样等值的攻击 若成功造成伤害将使目标获得1层电感1回合",
+    "effect": null
+  },
+  {
+    "name": "毒针🤢",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对敌人造成2点攻击 并施加3层毒 同时引爆一次毒伤",
+    "effect": {
+      "attack": 2,
+      "poison": 3
+    }
+  },
+  {
+    "name": "十万伏特⚡️",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成5次攻击每次攻击值为1点",
+    "effect": null
+  },
+  {
+    "name": "冰霜打击🧊",
+    "cost": 8,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对至多3个目标造成16点攻击，并施加8层寒冷 同时对目标施加二回合弱化二回合低迷",
+    "effect": null
+  },
+  {
+    "name": "闪电 ⚡️",
+    "cost": 9,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成18点攻击并使其获得5层电感（一回合）并降低目标2点防御力3回合",
+    "effect": null
+  },
+  {
+    "name": "离子反应⚡️",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对所有处于电感的目标造成3点攻击 下回合若目标还处于电感则还将造成5点攻击",
+    "effect": null
+  },
+  {
+    "name": "破伤风穿刺",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "触发7层流血 若目标仍然处于流血状态则施加14层流血",
+    "effect": null
+  },
+  {
+    "name": "铁棘刺爪",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4点攻击 同时施加12层流血 且使目标流血自然消减-3",
+    "effect": {
+      "attack": 4,
+      "bleed": 12
+    }
+  },
+  {
+    "name": "梦魇之刺😈",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成5点生命吸取 并施加25层流血，同时致盲目标一回合",
+    "effect": null
+  },
+  {
+    "name": "鬼魂勾😈",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成4点生命吸取，同时建立一条两回合鬼链 如目标处于虚弱状态则再次造成6点生命吸取 可打断蓄力",
+    "effect": null
+  },
+  {
+    "name": "暗影伏击😈",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "若下回合未受到伤害，则在下下回合开始时对目标造成8点攻击并造成16点流血",
+    "effect": null
+  },
+  {
+    "name": "死亡镰刀😈",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "造成7点攻击，并施加9层流血，同时降低目标2点防御力1回合",
+    "effect": null
+  },
+  {
+    "name": "迅捷打击",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "使自身获得3级追击效果2回合 对目标造成6点攻击 可打断蓄力",
+    "effect": null
+  },
+  {
+    "name": "双重打击",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对一个目标造成5点攻击，若成功造成伤害则可重新再次选择一个目标造成6点攻击",
+    "effect": null
+  },
+  {
+    "name": "寒霜刺🧊",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标造成6点攻击 若目标寒冷层数＞8则消耗其7层寒冷对其再次造成7点攻击 并施加一层雪",
+    "effect": null
+  },
+  {
+    "name": "毒针🤢",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标使用 若目标防御力为0且身上不存在格挡 则施加6层毒 且使目标自然毒消减暂停1回合 同时若目标身上还存在流血 则使目标进入放血（每回合敌人回合结束时自动触发4层流血）状态 2回合",
+    "effect": null
+  },
+  {
+    "name": "延时性破片手雷",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "攻击卡",
+    "type": "normal",
+    "desc": "对目标投掷一延时手雷 手雷将在下回合开始时引爆 造成4点攻击 若引爆时目标身上存在流血 则触发其所有流血 若目标不存在流血 则施加12层流血",
+    "effect": null
+  },
+  {
+    "name": "圣盾",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "恢复8点生命，同时获得12点格挡",
+    "effect": {
+      "gain_block": 12,
+      "heal": 8
+    }
+  },
+  {
+    "name": "钢铁意志",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得10点真实格挡 并提升自身6点防御力 减少下个回合受到的20%攻击 防御力效果持续3个回合",
+    "effect": null
+  },
+  {
+    "name": "弹反盾",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得12点格挡 若格挡被打破，则对打破目标造成8点攻击",
+    "effect": null
+  },
+  {
+    "name": "强心剂",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "恢复24点生命 获得加强版弱化（攻击-6）持续2回合，并同时获得2回合虚弱",
+    "effect": {
+      "heal": 24
+    }
+  },
+  {
+    "name": "反刺盾",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得16点格挡，若敌方回合结束时普通格挡未归0，则将自身真实格挡和普通格挡转化为对指定目标的一次攻击（数值等于真实格挡+普通格挡）",
+    "effect": null
+  },
+  {
+    "name": "缠绕护体",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "吸取目标2点生命，同时获得10点格挡和一层吸 收",
+    "effect": null
+  },
+  {
+    "name": "教条立场",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "立即获得防御力+5（1回合）并同时恢复12点生命",
+    "effect": null
+  },
+  {
+    "name": "协同治疗",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "本回合内后续使用带有恢复生命的卡牌耗能-1",
+    "effect": null
+  },
+  {
+    "name": "医疗盾",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得16点格挡，若下回合开始时格挡未被打破，则将自身所有普通格挡转换为恢复生命值",
+    "effect": null
+  },
+  {
+    "name": "沉梦护盾",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得6点格挡 和两层吸收 进入筑梦（吸收效果发挥作用时获得6点格挡）状态，筑梦状态结束后获得2回合虚弱",
+    "effect": {
+      "gain_block": 6
+    }
+  },
+  {
+    "name": "死亡图腾",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得一次庇护（生命值归0时立即复活并恢复9生命）效果，庇护触发后将获得6回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "神龟",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "立即吸取敌人的防御力 并同时获得一次免疫伤害 吸取的防御力将维持2回合 效果结束后获得2回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "临时格挡",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "立即获得14点格挡 仅存在半回合",
+    "effect": null
+  },
+  {
+    "name": "大地之盾",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得11点真实格挡",
+    "effect": {
+      "gain_true_block": 11
+    }
+  },
+  {
+    "name": "壳状防御",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得6点真实格挡和10点普通格挡",
+    "effect": {
+      "gain_true_block": 6
+    }
+  },
+  {
+    "name": "草木皆兵",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得已损失血量等值的格挡",
+    "effect": null
+  },
+  {
+    "name": "脂化反应",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "降低自身2点防御力三回合，减少自身12点生命上限 以换取14点真实格挡 和10点普通格挡",
+    "effect": null
+  },
+  {
+    "name": "永恒锻造",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "永久提升自身2点防御力",
+    "effect": null
+  },
+  {
+    "name": "菲比修斯的魔力护盾",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得6点格挡 同时进入魔力防护（魔力防护下，不受到元素卡牌（🧊/🤢/⚡️）造成的攻击）状态2回合",
+    "effect": {
+      "gain_block": 6
+    }
+  },
+  {
+    "name": "强身健体",
+    "cost": 8,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "每回合提升自身8点生命上限，并同时恢复4点生命 持续3回合",
+    "effect": null
+  },
+  {
+    "name": "血清",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "选择清除自身一种状态或效果 随后获得2回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "罗马防御",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "获得30点格挡 和嘲讽效果一回合",
+    "effect": null
+  },
+  {
+    "name": "群体疗法",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "每回合开始时恢复所有友方单位5点生命 持续3回合",
+    "effect": null
+  },
+  {
+    "name": "紧急包扎",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "立即恢复12点生命 下个回合开始时扣除自身8点生命",
+    "effect": null
+  },
+  {
+    "name": "寒冰疗法🧊",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "每回合恢复 9点生命  但同时获得6层寒冷 三回合",
+    "effect": null
+  },
+  {
+    "name": "格挡反击",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "防御卡",
+    "type": "normal",
+    "desc": "立即减少下张卡牌对你造成的总攻击的5点 并对伤害来源造成4点攻击",
+    "effect": null
+  },
+  {
+    "name": "振奋",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "立即清除自身所有负面状态（不包括效果）并获得一回合虚弱。",
+    "effect": null
+  },
+  {
+    "name": "特殊操作",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "选择两张基本卡，并且触发其效果",
+    "effect": null
+  },
+  {
+    "name": "医者仁心",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "恢复所有目标（敌方与友方）6点生命，自身额外再次恢复4点生命",
+    "effect": null
+  },
+  {
+    "name": "雪崩🧊",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有存在雪的目标使用，清空其雪的层数并立刻触发一次雪崩",
+    "effect": null
+  },
+  {
+    "name": "暴风雪🧊",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人同时施加13层寒冷和3层雪",
+    "effect": {
+      "chill": 13
+    }
+  },
+  {
+    "name": "没落",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "使目标下一张卡失效（可叠加）并给予目标虚弱2回合",
+    "effect": null
+  },
+  {
+    "name": "不详的征兆",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "使所有敌人获得6点攻击力（2回合）并使其获得3点能量。三个回合后清空所有敌人能量，并无视效果，对所有敌人造成20点真实伤害",
+    "effect": null
+  },
+  {
+    "name": "火花四溅⚡️",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌方目标造成选中目标数*3且无视防御力的攻击。",
+    "effect": null
+  },
+  {
+    "name": "鬼毒阵🤢",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对敌人施加鬼毒（每回合被施加8层毒）状态\n持续3回合",
+    "effect": null
+  },
+  {
+    "name": "荆刺🤢",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标施加荆刺（每使用一张卡牌，便被施加3层毒）状态2回合",
+    "effect": {
+      "poison": 3
+    }
+  },
+  {
+    "name": "冰爆🧊",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标造成寒冷层数-4的攻击，并同时消除目标身上的寒冷层数",
+    "effect": null
+  },
+  {
+    "name": "归一",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "恢复使用目标对象的能量数*2的血量",
+    "effect": null
+  },
+  {
+    "name": "强光",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人施加致盲（被致盲的目标无法使用攻击卡）效果一回合",
+    "effect": null
+  },
+  {
+    "name": "持续疗法",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "恢复自身8点生命，之后每到自己回合开始时恢复8点生命持续3回合",
+    "effect": {
+      "heal": 8
+    }
+  },
+  {
+    "name": "小雪球🧊",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人施加1层雪",
+    "effect": null
+  },
+  {
+    "name": "大雪球🧊",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人施加4层寒冷和2层雪",
+    "effect": {
+      "chill": 4
+    }
+  },
+  {
+    "name": "雪盲症🧊",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对超过14层寒冷或存在雪的目标使用，对其施加1回合致盲",
+    "effect": null
+  },
+  {
+    "name": "毒绞🤢",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标造成10点攻击 并同时施加8层毒 下回合还将施加6层毒",
+    "effect": null
+  },
+  {
+    "name": "炙阳",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有目标（包括敌我）每回合造成6点攻击 持续2回合",
+    "effect": null
+  },
+  {
+    "name": "彻骨冰寒",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标造成7点攻击 并使目标进入冻结状态一回合 若下回合自身结束时目标身上寒冷层数超过20 则立即消耗其20层寒冷造成22点攻击",
+    "effect": null
+  },
+  {
+    "name": "冰冻🧊",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "使所有敌人进入冻结（每受到4层寒冷，额外叠加2层寒冷）状态3回合",
+    "effect": null
+  },
+  {
+    "name": "压制",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标使用，使其获得弱化1回合，若目标已经处于弱化，则使其变为加强版弱化且增加其2回合弱化时间",
+    "effect": null
+  },
+  {
+    "name": "备用医药",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "恢复10点生命 下回合开始时再恢复4点生命",
+    "effect": null
+  },
+  {
+    "name": "圣石",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "获得一次免疫伤害（可叠加） 同时获得1回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "巫毒法术🤢",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人施加9层毒 并使毒层自然消减数-3，持续2回合",
+    "effect": {
+      "poison": 9
+    }
+  },
+  {
+    "name": "雷电乌云⚡️",
+    "cost": 7,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "召唤一个雷电乌云在目标身上持续3回合 从本回合开始每回合自身结束时对目标造成7点攻击 并使目标获得2层电感一回合",
+    "effect": null
+  },
+  {
+    "name": "引雷⚡️",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "消耗所有电感层数 对目标造成电感层数*4的攻击",
+    "effect": null
+  },
+  {
+    "name": "感染🤢",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "若目标处于流血状态，则施加10层毒",
+    "effect": null
+  },
+  {
+    "name": "亡灵的嚎哭 😈",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人使用，每回合自身结束时对所有敌人施加攻击力-3 （1回合） 持续3回合",
+    "effect": null
+  },
+  {
+    "name": "血色祭典😈",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "消耗自身6点生命上限以换取恢复8点生命 并同时获得一回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "侵蚀虫毒🤢",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标施加5层毒 并在下回合腐蚀掉目标一件装备",
+    "effect": null
+  },
+  {
+    "name": "陨落咒术",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "自身防御力-4（3回合）蓄力吟唱3个回合 3个回合后对目标造成40点攻击 造成攻击后获得6回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "奥术魔典",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "蓄力2回合 2回合后攻击力和防御力+4持续一回合",
+    "effect": null
+  },
+  {
+    "name": "冰川时代🧊",
+    "cost": 10,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "使所有敌人进入极寒状态3回合 并且每回合获得4层寒冷持续三回合 所有🧊系卡牌耗能-1持续3回合",
+    "effect": null
+  },
+  {
+    "name": "汇流凝冰 🧊",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "若自身存在寒冷 则消耗12层寒冷汇聚成7点格挡",
+    "effect": null
+  },
+  {
+    "name": "冰雪制造术🧊",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对目标使用 若目标身上寒冷层数>＝12则消耗其12层寒冷并施加2层雪",
+    "effect": null
+  },
+  {
+    "name": "沙尘暴",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "魔法卡",
+    "type": "normal",
+    "desc": "对所有敌人使用 使他们获得2回合掩体效果 和1回合致盲效果",
+    "effect": null
+  },
+  {
+    "name": "狂热😈",
+    "cost": 8,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对一个目标使用，使其获得狂热（3个回合后，减少32点生命上限）效果，狂热触发后自身获得\n3回合虚弱（虚弱状态下无法使用文字描述中会获得虚弱的卡牌）状态",
+    "effect": null
+  },
+  {
+    "name": "沙尘",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对所有敌人施加掩体效果，并同时给予一层易伤（受到攻击时将额外受到易伤层数的攻击）一回合",
+    "effect": null
+  },
+  {
+    "name": "弱化药剂",
+    "cost": 5,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对所有敌人施加弱化（造成的攻击值-4）状态3回合",
+    "effect": null
+  },
+  {
+    "name": "禁言",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "目标下一张卡牌将失效 （可叠加数量），持续一回合",
+    "effect": null
+  },
+  {
+    "name": "能力提升",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "提升自己2点攻击，和2点防御 持续2回合",
+    "effect": null
+  },
+  {
+    "name": "能量剥夺",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "立即减少敌方3点能量",
+    "effect": null
+  },
+  {
+    "name": "捕兽夹",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对目标安放一个捕兽夹 若目标下回合使用卡牌，夹子将造成4点真实伤害并减少目标一格能量。夹子存在一回合",
+    "effect": null
+  },
+  {
+    "name": "缴械",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "使目标装备栏中的一项装备失效无限回合",
+    "effect": null
+  },
+  {
+    "name": "净化",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "立即净化自身，清除所有负面效果和状态以及防御力和攻击力的改变。并恢复自身8点生命 免疫负面效果和状态1回合",
+    "effect": null
+  },
+  {
+    "name": "法术沉淀",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "使目标下一回合所有卡耗能+1",
+    "effect": null
+  },
+  {
+    "name": "修补",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "延迟自身普通格挡一回合持续时间",
+    "effect": null
+  },
+  {
+    "name": "枷锁",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对目标施加一回合弱化 和2回合虚弱",
+    "effect": null
+  },
+  {
+    "name": "泳潮悲歌",
+    "cost": 6,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "恢复自身生命上限一半数值的生命 并获得3级追击（效果时间内，每次造成攻击，都将额外造成一段追击等级等值的攻击，追击等级可叠加）效果三回合 并提升自身5点防御力 同时自身获得1回合致盲效果 且下回合能量-4",
+    "effect": null
+  },
+  {
+    "name": "极寒🧊",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "使所有敌人进入极寒（暂停寒冷层数自然消减）状态 并提升所有🧊系卡牌攻击+1",
+    "effect": null
+  },
+  {
+    "name": "反制",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "若下回受到超过9点的伤害 则对所有敌人施加1回合虚弱，一回合弱化，一回合低迷 ，一回合束缚（被束缚的目标仅能使用攻击卡和防御卡）状态",
+    "effect": null
+  },
+  {
+    "name": "重铸",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "将厂上的能量收集起来平均分配，多余的消失",
+    "effect": null
+  },
+  {
+    "name": "血红酒😈",
+    "cost": 1,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "😈系卡牌的生命吸取效果+3 每使用一张卡牌减少自身4点生命上限 持续一回合",
+    "effect": null
+  },
+  {
+    "name": "禁令",
+    "cost": 4,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "立即使目标下一张卡失效",
+    "effect": null
+  },
+  {
+    "name": "解毒剂",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "减少自身12层毒",
+    "effect": null
+  },
+  {
+    "name": "热熔剂",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "融化自身12层寒冷",
+    "effect": null
+  },
+  {
+    "name": "修罗的终极毒药🤢",
+    "cost": 10,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对目标施加14层毒 并进入判定 若目标在接下来的三回合内毒层超过60层，则直接斩杀",
+    "effect": null
+  },
+  {
+    "name": "导体⚡️",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "使目标获得3层电感（受到的每段⚡️攻击都将再次受到电感层数等值的次数（此次数为⚡️特性附带的不计入次数）的2点固定攻击不受目标防御力影响）（可叠加）状态1回合",
+    "effect": null
+  },
+  {
+    "name": "充能闪电球⚡️",
+    "cost": 3,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "蓄力一回合，下回合自身结束时对目标造成9点攻击 并使目标束缚一回合",
+    "effect": null
+  },
+  {
+    "name": "绝缘体",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "清除自身所有电感层数",
+    "effect": null
+  },
+  {
+    "name": "电云⚡️",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "对所有敌人施加1层电感2回合",
+    "effect": {
+      "charge": 1
+    }
+  },
+  {
+    "name": "高压⚡️",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "延长所有敌人电感持续时间一回合",
+    "effect": null
+  },
+  {
+    "name": "加速时钟",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "加速自身造物苏醒一回合",
+    "effect": null
+  },
+  {
+    "name": "莫诺的望远镜",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "使下张卡牌 蓄力一回合  下回合触发时 附带一次5+当前追击等级的攻击",
+    "effect": null
+  },
+  {
+    "name": "兵书",
+    "cost": 2,
+    "duration": null,
+    "health": null,
+    "category": "状态卡",
+    "type": "normal",
+    "desc": "下一张 《攻守兼备》或《穷追猛打》卡效果翻倍 存在2回合有效时间",
+    "effect": null
+  },
+  {
+    "name": "狂刀战斧",
+    "cost": 4,
+    "duration": 4,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每对目标造成了8点伤害，就将使目标-1能量\n（一回合最多触发三次）",
+    "effect": null
+  },
+  {
+    "name": "饮血剑😈",
+    "cost": 4,
+    "duration": 1,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每对任意敌方目标造成了1点伤害，就恢复自身一点生命值",
+    "effect": null
+  },
+  {
+    "name": "圣光盾",
+    "cost": 4,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "可给予友方任意目标（包括自己\n获得12点真实格挡，同时获得嘲讽（敌方单位的单体攻击将被强制吸引）效果",
+    "effect": null
+  },
+  {
+    "name": "鬼魂锁😈",
+    "cost": 4,
+    "duration": 3,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "与目标建立条鬼链（每回合吸取目标3点生命上限）",
+    "effect": null
+  },
+  {
+    "name": "悟言盾",
+    "cost": 5,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "获得10点格挡 并获得50%攻击减免",
+    "effect": {
+      "gain_block": 10
+    }
+  },
+  {
+    "name": "冰冻鱼叉🧊",
+    "cost": 4,
+    "duration": 4,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "攻击处于雪的目标时，每段还将额外叠加2层寒冷",
+    "effect": null
+  },
+  {
+    "name": "恶魂十字架😈",
+    "cost": 2,
+    "duration": 4,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "当自身血量等于现有生命上限（即满血） 每回合第一张😈系卡牌耗能-1",
+    "effect": null
+  },
+  {
+    "name": "元防",
+    "cost": 5,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "防御力+3，免疫超过或等于12的攻击获得真实格挡",
+    "effect": null
+  },
+  {
+    "name": "寒冰剑🧊",
+    "cost": 3,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每对目标造成一次伤害 会额外给目标施加6层寒冷",
+    "effect": {
+      "chill": 6
+    }
+  },
+  {
+    "name": "荆棘甲",
+    "cost": 6,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "获得8点真实格挡 每受到4点攻击 将对攻击目标造成2点攻击",
+    "effect": {
+      "attack": 2,
+      "gain_true_block": 8
+    }
+  },
+  {
+    "name": "树人图腾",
+    "cost": 7,
+    "duration": 4,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每回合获得4点真实格挡和5点普通格挡",
+    "effect": null
+  },
+  {
+    "name": "所罗门的指环",
+    "cost": 7,
+    "duration": 5,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "场上每出现一张卡牌 自身恢复2点生命值",
+    "effect": {
+      "heal": 2
+    }
+  },
+  {
+    "name": "护身的古老符文",
+    "cost": 8,
+    "duration": -1,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每回合恢复自身3点生命",
+    "effect": null
+  },
+  {
+    "name": "七字刀",
+    "cost": 4,
+    "duration": 3,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每使用一张攻击卡，就将额外追加一次数值为3点的攻击",
+    "effect": null
+  },
+  {
+    "name": "毒牙匕首🤢",
+    "cost": 2,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每次使用🤢卡牌时，额外对目标施加3层毒",
+    "effect": {
+      "poison": 3
+    }
+  },
+  {
+    "name": "闪电匕首⚡️",
+    "cost": 2,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每次使用⚡️卡牌时，额外对目标施加1层电感（1回合）",
+    "effect": {
+      "charge": 1
+    }
+  },
+  {
+    "name": "电击棒⚡️",
+    "cost": 3,
+    "duration": 3,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "所有⚡️卡牌攻击+3",
+    "effect": null
+  },
+  {
+    "name": "铁血指虎",
+    "cost": 4,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "造成的每段攻击触发的流血层数+2，并同时给予目标4层流血",
+    "effect": null
+  },
+  {
+    "name": "锯齿",
+    "cost": 3,
+    "duration": 4,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每段攻击将额外施加2层流血",
+    "effect": {
+      "bleed": 2
+    }
+  },
+  {
+    "name": "德古拉的斗篷😈",
+    "cost": 6,
+    "duration": 3,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "减少20%受到的攻击 同时😈系卡牌攻击+2 生命吸取效果+1 自身不受流血状态影响 装备结束后还将获得8点生命上限的提升",
+    "effect": null
+  },
+  {
+    "name": "恶灵的契约😈",
+    "cost": 3,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "装备时间内 使用😈系卡牌就会损失自身1点生命上限 每损失4点生命上限 获得一个能量",
+    "effect": null
+  },
+  {
+    "name": "冰息铠甲🧊",
+    "cost": 4,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每回合自身获得8层寒冷和8点真实格挡 并获得50%攻击减免",
+    "effect": null
+  },
+  {
+    "name": "β.火箭发射器",
+    "cost": 4,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "每使用一张防御卡 就会为发射器填充一发弹药 在自身回合结束时 发射器发射全部弹药 每个弹药对所有敌人造成4点攻击",
+    "effect": {
+      "attack": 4,
+      "aoe_attack": 4
+    }
+  },
+  {
+    "name": "指挥军刀",
+    "cost": 3,
+    "duration": 2,
+    "health": null,
+    "category": "装备卡",
+    "type": "equip",
+    "desc": "所有友方单位攻击+3 自身攻击+1",
+    "effect": null
+  },
+  {
+    "name": "高效制冷机🧊",
+    "cost": 8,
+    "duration": 6,
+    "health": 22,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每回合对所有敌人施加7层寒冷，每两回合施加1层雪",
+    "effect": null
+  },
+  {
+    "name": "十字军",
+    "cost": 7,
+    "duration": 5,
+    "health": 20,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每个十字军\n召唤2名十字军每到自身回合结束时，存活的十字军可以对指定目标造成4点攻击 每个十字军自然撤退时，将回复召唤者一个能量",
+    "effect": null
+  },
+  {
+    "name": "亡灵石像😈",
+    "cost": 7,
+    "duration": -1,
+    "health": 32,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "消耗自身8点生命召唤亡灵石像 石像前三回合无法行动 随后可在每回合开始时对选定目标造成6点攻击",
+    "effect": null
+  },
+  {
+    "name": "能量玩偶",
+    "cost": 4,
+    "duration": 3,
+    "health": 11,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "从下回合开始，每回合将为召唤者提供1点能量 若玩偶自然撤退则返还3点能量",
+    "effect": null
+  },
+  {
+    "name": "蜉蝣电击器⚡️",
+    "cost": 2,
+    "duration": 4,
+    "health": 4,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每使用一张⚡️系卡牌蜉蝣电击器将对同一目标造成2点攻击",
+    "effect": {
+      "attack": 2
+    }
+  },
+  {
+    "name": "死亡毒蛛🤢",
+    "cost": 4,
+    "duration": 2,
+    "health": 10,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每回合结束时，可指定目标对其喷洒毒液，造成2点攻击和施加6层毒",
+    "effect": null
+  },
+  {
+    "name": "幽影蝙蝠😈",
+    "cost": 4,
+    "duration": 3,
+    "health": 2,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每只\n召唤4只蝙蝠 从下回合开始每只蝙蝠在回合结束时可对指定目标造成2点生命吸取",
+    "effect": null
+  },
+  {
+    "name": "极寒冰龙 🧊",
+    "cost": 6,
+    "duration": 3,
+    "health": 18,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "召唤一条冰龙 回合结束时可选择两种操作之一\n一对所有敌人释放冰龙吐息 造成6点攻击和施加6层寒冷 二 给予召唤者9点真实格挡",
+    "effect": null
+  },
+  {
+    "name": "九翼天使",
+    "cost": 6,
+    "duration": 8,
+    "health": 16,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "每回合自身结束时，可恢复召唤者6点生命  天使每次死亡后会进入复活状态 复活状态血量为12点 若两回合内未击杀则会复活",
+    "effect": null
+  },
+  {
+    "name": "天外来物",
+    "cost": 5,
+    "duration": 3,
+    "health": 16,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "天外来物持续时间\n召唤一个信标 信标有5血 若信标未被打破 则下回合开始时召唤天外来物取代信标 天外来物在自身回合结束时 可选择敌方一个单位目标 让其被消散（退出场地，等同于死）消散一个目标 还会为召唤者恢复6点生命",
+    "effect": null
+  },
+  {
+    "name": "科学怪人",
+    "cost": 4,
+    "duration": 5,
+    "health": 16,
+    "category": "造物卡",
+    "type": "craft",
+    "desc": "召唤科学怪人后，他将进行一回合研究 第二回合开始时给予召唤者研究成果一 使召唤者所有装备卡耗能-1 然后继续研究一回合 第四回合开始时 给予召唤者研究成果二 使召唤者所有魔法卡耗能-1",
+    "effect": null
+  }
+]
